@@ -1,18 +1,20 @@
-*{
-    box-sizing: border-box;
-}
 body{
-    margin:50px;
-    
+    display: flex;
 }
 
-fieldset{
-    background-color: gray;
-    margin-bottom: 20px;
-    border: 2px solid black;
+div{
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
 }
-legend{
-    background-color: burlywood;
-    padding: 5px;
-    border: 2px solid black;
+@media(orientation:landscape){
+    body{
+        flex-direction: row;
+    }
+}
+
+@media (orientation:portrait){
+    body{
+        flex-direction:column;
+    }
 }
