@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:50px;
+    
+}
+
+fieldset{
+    background-color: gray;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+legend{
+    background-color: burlywood;
+    padding: 5px;
+    border: 2px solid black;
+}
